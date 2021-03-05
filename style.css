@@ -1,3 +1,47 @@
+/*Links*/
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation bar*/
+
+.a_top {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    font-size: 13px;
+}
+
 .nav {
     text-align: right;
+    padding: px;
+    padding-right: 15px;
+    
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#blu_butt {
+    background-color: rgb(68, 130, 223);
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+
+#sign_in {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
